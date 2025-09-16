@@ -1,54 +1,26 @@
-# Trieu Thanh Vinh
+# Hi, I’m Vinh (he/him)
 
-### Hi, I’m Vinh (he/him)
+**ASIC RTL / FPGA Design — Verilog & SystemVerilog**  
+IC Design student with hands-on RTL design and verification on both ASIC flows and FPGA prototyping. I like clean RTL, readable testbenches, and reproducible CI flows.
 
-FPGA/ASIC developer building **digital IP cores** for embedded and edge systems. I focus on high-quality RTL that ships with documentation, reproducible simulations, and CI that proves designs work.
+- 🧪 Verification: cocotb + Verilator, waveform debug with GTKWave  
+- 🧰 Tools: **Cadence** (Xcelium, Genus, Conformal LEC), **Quartus**, **Gowin EDA**, **ModelSim**, **Icarus**, **LibreLane (basic)**  
+- 🔌 Buses/Protocols: **AXI4, APB4, QSPI, UART**  
+- 🗣️ Languages: **Verilog/SystemVerilog**, Python, Tcl, Bash, (some C/C++)
 
-- 🔭 Latest: [QSPI-Flash-Device-Controller](https://github.com/vinniny/QSPI-Flash-Device-Controller)
-- 🧰 Tools: Verilator, cocotb, Verible, Icarus, Vivado/Quartus, Gowin
-- ✍️ Each flagship repo ships with docs (`docs/`) capturing bring-up notes
-- 📫 Reach: LinkedIn • email (replace with your preferred contact details)
+---
 
-## Selected Work
+## Skills Snapshot
 
-- **QSPI Flash IP** – Timing-safe FSM, flash protocol layer, execute-in-place hooks, Verilator CI.
-- **NPU prototypes** – Multi-FPGA partitioning with on-chip DMA and streaming datapaths.
-- **CNN/SNN hybrid** – Sparse inference path on FPGA (in progress).
+- **RTL & Verification:** Verilog, SystemVerilog, cocotb, Verilator, ModelSim, Icarus, GTKWave  
+- **EDA & Flows:** Cadence Xcelium / Genus / Conformal LEC, Intel Quartus, Gowin EDA, LibreLane (basic)  
+- **Buses & Protocols:** AXI4, APB4, QSPI, UART  
+- **Scripting & Dev:** Python, Tcl, Bash; Make; Git/GitHub
 
-> I like clean RTL, reproducible builds, and CI that actually catches bugs.
+---
 
-## QSPI Flash Controller at a Glance
+## Now / Open To
 
-```
-Host (APB/AXI-Lite) --> CSR / Regs --> Command Engine --> QSPI FSM --> Pads
-                           |               |                |
-                           |               |                `-- IO timing + protocol
-                           |               `-- Sequencing, WIP polling
-                           `-- DMA / XIP hooks via FIFOs
-```
-
-## Featured Repositories
-
-| Repository | Focus |
-| --- | --- |
-| [QSPI-Flash-Device-Controller](https://github.com/vinniny/QSPI-Flash-Device-Controller) | APB/AXI-Lite bridge to external flash with Verilator and cocotb coverage |
-| [OneKiwi_PLC](https://github.com/vinniny/OneKiwi_PLC) | PLC platform experiments with modular HDL blocks |
-| [fpga_npu](https://github.com/vinniny/fpga_npu) | Neural processing unit research cores |
-| [cnn-snn-hybrid](https://github.com/vinniny/cnn-snn-hybrid) | Bridging CNN feature maps into spiking inference |
-| [Embedded-System-Altium](https://github.com/vinniny/Embedded-System-Altium) | Altium project files backing the hardware stack |
-| [HK251](https://github.com/vinniny/HK251) | Coursework and experiments that seeded my current toolchain |
-
-## Build & Verification Stack
-
-- Verilator + cocotb (pytest) simulations wired into GitHub Actions.
-- Verible linting for SystemVerilog/Verilog style health.
-- Linguist overrides ensure HDL is recognized correctly on GitHub.
-- CITATION metadata and releases for reproducible artifacts.
-
-## Topics & Tags
-
-Core projects carry topics such as `verilog`, `systemverilog`, `fpga`, `asic`, `apb`, `axi4-lite`, `qspi`, `modbus`, `cocotb`, and `verilator`—making them easier to discover.
-
-## Getting Involved
-
-If you build on any of these IP blocks or tooling, feel free to open a discussion or reach out. I’m always interested in collaborations around FPGA/ASIC verification, embedded integration, and high-confidence hardware builds.
+- **Roles:** ASIC RTL, Design Verification, FPGA/SoC Engineering (intern/new grad)  
+- **Location:** Ho Chi Minh City • Remote (APAC friendly)  
+- **Interests:** Memory-mapped peripherals, bus fabrics (AXI/APB), verification CI, lightweight DMA/XIP designs
