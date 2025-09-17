@@ -1,4 +1,4 @@
-# Hi, I’m Vinh (he/him)
+# Hi, I’m Vinh
 
 **ASIC RTL / FPGA Design — Verilog & SystemVerilog**  
 IC Design student with hands-on RTL design and verification on both ASIC flows and FPGA prototyping. I like clean RTL, readable testbenches, and reproducible CI flows.
